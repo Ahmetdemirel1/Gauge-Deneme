@@ -29,8 +29,8 @@ public class Browser {
 
 
             URL hub = new URL(URL);
-            String key = System.getenv(KEY);
-            if(StringUtils.isNotEmpty(KEY)){
+            String key = "ahmetdemirel:bba815c75f0c90da38b258e1df762c06";
+            if(StringUtils.isNotEmpty(key)){
                 log.info("Testinium ");
                 ChromeOptions options = new ChromeOptions();
                 capabilities = DesiredCapabilities.chrome();
@@ -40,7 +40,7 @@ public class Browser {
                 options.addArguments("disable-translate");
                 options.addArguments("start-maximized");
                 capabilities.setCapability(ChromeOptions.CAPABILITY, options);
-                capabilities.setCapability("key",KEY);
+                capabilities.setCapability("key",key);
                 //BaseTest.setDriver(new RemoteWebDriver(hub, capabilities));
 
 
