@@ -41,7 +41,8 @@ public class Browser {
                 options.addArguments("start-maximized");
                 capabilities.setCapability(ChromeOptions.CAPABILITY, options);
                 capabilities.setCapability("key",KEY);
-                BaseTest.setDriver(new RemoteWebDriver(hub, capabilities));
+                //BaseTest.setDriver(new RemoteWebDriver(hub, capabilities));
+
 
         }
         else if (StringUtils.isNotEmpty(key) && browserName != null ){
