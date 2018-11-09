@@ -30,17 +30,19 @@ public class Browser {
 
             URL hub = new URL(URL);
             String key = System.getenv(KEY);
-            if(StringUtils.isNotEmpty(key)){
+            if(StringUtils.isNotEmpty(KEY)){
                 log.info("Testinium ");
                 ChromeOptions options = new ChromeOptions();
+                capabilities = DesiredCapabilities.chrome();
                 options.addArguments("test-type");
                 options.addArguments("disable-popup-blocking");
                 options.addArguments("ignore-certificate-errors");
                 options.addArguments("disable-translate");
                 options.addArguments("start-maximized");
-                capabilities.setCapability(ChromeOptions.CAPABILITY,options);
-                capabilities.setCapability("key",key);
-                BaseTest.setDriver(new RemoteWebDriver(hub,capabilities));
+                capabilities.setCapability(ChromeOptions.CAPABILITY, options);
+                capabilities.setCapability("key",KEY);
+                BaseTest.setDriver(new RemoteWebDriver(hub, capabilities));
+
         }
         else if (StringUtils.isNotEmpty(key) && browserName != null ){
                 log.info("Default");

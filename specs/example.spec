@@ -9,8 +9,8 @@ To execute this specification, run
 
 
 
-## Vowel counts in single word
-
+Vowel counts in single word
+----------------------------
 tags: single word
 
 * "https://twitter.com/" adresine gidilir
