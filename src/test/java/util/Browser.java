@@ -9,6 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
@@ -32,7 +33,7 @@ public class Browser {
             String key = "ahmetdemirel:bba815c75f0c90da38b258e1df762c06";
             if(StringUtils.isNotEmpty(key)){
                 log.info("Testinium ");
-                ChromeOptions options = new ChromeOptions();
+               /** ChromeOptions options = new ChromeOptions();
                 capabilities = DesiredCapabilities.chrome();
                 options.addArguments("test-type");
                 options.addArguments("disable-popup-blocking");
@@ -41,8 +42,20 @@ public class Browser {
                 options.addArguments("start-maximized");
                 capabilities.setCapability(ChromeOptions.CAPABILITY, options);
                 capabilities.setCapability("key",key);
-                BaseTest.setDriver(new RemoteWebDriver(hub, capabilities));
+                BaseTest.setDriver(new RemoteWebDriver(hub, capabilities)); **/
 
+
+                DesiredCapabilities capabilities = new DesiredCapabilities();
+                capabilities.setCapability("key", KEY);
+
+                capabilities.setCapability(CapabilityType.PLATFORM, "WIN10");
+                capabilities.setCapability(CapabilityType.BROWSER_NAME, "chrome");
+                capabilities.setCapability(CapabilityType.VERSION, "LATEST");
+                capabilities.setCapability(CapabilityType.TAKES_SCREENSHOT, true);
+                capabilities.setCapability("recordsVideo", true);
+                capabilities.setCapability("screenResolution", "SXGA");
+
+                BaseTest.setDriver(new RemoteWebDriver(hub, capabilities));
 
         }
         else if (StringUtils.isNotEmpty(key) && browserName != null ){

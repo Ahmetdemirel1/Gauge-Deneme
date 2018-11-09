@@ -89,12 +89,12 @@
       <file leaf-file-name="Browser.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/util/Browser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+            <state relative-caret-position="560">
+              <caret line="57" column="75" selection-start-line="57" selection-start-column="75" selection-end-line="57" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4944#4945#0" expanded="true" />
-                <element signature="e#4987#4988#0" expanded="true" />
+                <element signature="e#4998#4999#0" expanded="true" />
+                <element signature="e#5041#5042#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -452,8 +452,8 @@
           <caret line="99" column="32" lean-forward="true" selection-start-line="99" selection-start-column="32" selection-end-line="99" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4944#4945#0" expanded="true" />
-            <element signature="e#4987#4988#0" expanded="true" />
+            <element signature="e#4998#4999#0" expanded="true" />
+            <element signature="e#5041#5042#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -604,12 +604,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/util/Browser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+        <state relative-caret-position="560">
+          <caret line="57" column="75" selection-start-line="57" selection-start-column="75" selection-end-line="57" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4944#4945#0" expanded="true" />
-            <element signature="e#4987#4988#0" expanded="true" />
+            <element signature="e#4998#4999#0" expanded="true" />
+            <element signature="e#5041#5042#0" expanded="true" />
           </folding>
         </state>
       </provider>
