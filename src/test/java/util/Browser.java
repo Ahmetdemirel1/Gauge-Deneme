@@ -1,7 +1,7 @@
 package util;
 
 import base.BaseTest;
-import com.sun.istack.internal.logging.Logger;
+
 import org.apache.commons.lang.StringUtils;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
@@ -18,7 +18,7 @@ import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 public class Browser {
-    protected final Logger log = Logger.getLogger(Browser.class);
+
     private DesiredCapabilities capabilities;
     public static final String USERNAME = "ahmetdemirel";
     public static final String ACCESS_KEY = "bba815c75f0c90da38b258e1df762c06";
@@ -32,7 +32,7 @@ public class Browser {
             URL hub = new URL(URL);
             String key = "ahmetdemirel:bba815c75f0c90da38b258e1df762c06";
             if(StringUtils.isNotEmpty(key)){
-                log.info("Testinium ");
+
                /** ChromeOptions options = new ChromeOptions();
                 capabilities = DesiredCapabilities.chrome();
                 options.addArguments("test-type");
@@ -59,7 +59,7 @@ public class Browser {
 
         }
         else if (StringUtils.isNotEmpty(key) && browserName != null ){
-                log.info("Default");
+                //log.info("Default");
                 ChromeOptions options = new ChromeOptions();
                 capabilities = DesiredCapabilities.chrome();
                 options.addArguments("test-type");
@@ -76,9 +76,9 @@ public class Browser {
 
                 BaseTest.getDriver().manage().timeouts().implicitlyWait(implicitlyWait, TimeUnit.SECONDS);
                 BaseTest.getDriver().manage().window().maximize();
-                log.info("Installation Complete");
-                log.info("********* BROWSER:" + capabilities.getBrowserName() + ", " + "VERSION:" + capabilities.getVersion()
-                        + ", " + "PLATFORM:" + capabilities.getPlatform());
+                //log.info("Installation Complete");
+                //log.info("********* BROWSER:" + capabilities.getBrowserName() + ", " + "VERSION:" + capabilities.getVersion()
+                //       + ", " + "PLATFORM:" + capabilities.getPlatform());
 
 
             }
@@ -146,7 +146,7 @@ public class Browser {
                     System.setProperty(browser, "properties/driver/chromedriverlinux64.exe");
                     break;
                 default:
-                    log.info("PLATFORM DOES NOT EXISTS");
+                    //log.info("PLATFORM DOES NOT EXISTS");
                     break;
             }
         }else if("FIREFOX".equalsIgnoreCase(capabilities.getBrowserName())){
@@ -165,7 +165,7 @@ public class Browser {
                     System.setProperty(browser, "properties/driver/geckodriverlinux64.exe");
                     break;
                 default:
-                    log.info("PLATFORM DOES NOT EXISTS");
+                   // log.info("PLATFORM DOES NOT EXISTS");
                     break;
             }
         }
