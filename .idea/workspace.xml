@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4130766d-982b-4193-a867-a383790d2e63" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/web.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/web.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/util/Browser$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/util/Browser$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/util/Browser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/util/Browser.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -84,8 +81,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="366">
+              <caret line="104" column="17" selection-start-line="104" selection-start-column="17" selection-end-line="104" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -145,6 +142,8 @@
     <findStrings>
       <find>auge-maven-plugin</find>
       <find>gauge-gradle-plugin</find>
+      <find>gauge-java</find>
+      <find>gauge-archetype-java</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -356,9 +355,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="deneme - 2018.11.08 at 16h 22m 00s.xml">
-      <configuration name="deneme" configurationId="executeSpecs" />
-    </history-entry>
     <history-entry file="deneme - 2018.11.08 at 16h 22m 31s.xml">
       <configuration name="deneme" configurationId="executeSpecs" />
     </history-entry>
@@ -386,6 +382,9 @@
     <history-entry file="deneme - 2018.11.09 at 13h 56m 18s.xml">
       <configuration name="deneme" configurationId="executeSpecs" />
     </history-entry>
+    <history-entry file="deneme - 2018.11.09 at 13h 57m 59s.xml">
+      <configuration name="deneme" configurationId="executeSpecs" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -400,11 +399,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20436187" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20436187" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -619,8 +618,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="366">
+          <caret line="104" column="17" selection-start-line="104" selection-start-column="17" selection-end-line="104" selection-end-column="17" />
         </state>
       </provider>
     </entry>

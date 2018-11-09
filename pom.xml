@@ -31,7 +31,11 @@
       <version>0.6.8</version>
     </dependency>
 
-
+    <dependency>
+      <groupId>com.thoughtworks.gauge.maven</groupId>
+      <artifactId>gauge-archetype-java</artifactId>
+      <version>1.1.0</version>
+    </dependency>
 
     <dependency>
       <groupId>com.thoughtworks.gauge.maven</groupId>
@@ -65,11 +69,8 @@
     </dependency>
 
 
-    <dependency>
-      <groupId>com.thoughtworks.gauge.maven</groupId>
-      <artifactId>gauge-archetype-java</artifactId>
-      <version>1.1.0</version>
-    </dependency>
+
+
       <dependency>
           <groupId>org.apache.httpcomponents</groupId>
           <artifactId>httpclient</artifactId>
@@ -86,6 +87,22 @@
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
+        <plugin>
+          <groupId>com.thoughtworks.gauge.maven</groupId>
+          <artifactId>gauge-maven-plugin</artifactId>
+          <version>1.2.0</version>
+          <executions>
+            <execution>
+              <phase>test</phase>
+              <configuration>
+                <specsDir>specs</specsDir>
+              </configuration>
+              <goals>
+                <goal>execute</goal>
+              </goals>
+            </execution>
+          </executions>
+        </plugin>
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>
           <version>3.0.0</version>
