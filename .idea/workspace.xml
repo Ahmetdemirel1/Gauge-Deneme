@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4130766d-982b-4193-a867-a383790d2e63" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/util/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/util/Browser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/web.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/web.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/util/Browser$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/util/Browser$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/util/Browser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/util/Browser.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/test/StepImplementation.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="465">
-              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#531#532#0" expanded="true" />
@@ -63,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/specs/deneme.spec">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="24" />
+              <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -72,25 +76,25 @@
         <entry file="file://$PROJECT_DIR$/specs/example.spec">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="106">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Browser.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Browser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/util/Browser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="57" column="75" selection-start-line="57" selection-start-column="75" selection-end-line="57" selection-end-column="75" />
+            <state relative-caret-position="-1105">
+              <caret line="44" column="79" selection-start-line="44" selection-start-column="79" selection-end-line="44" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#4998#4999#0" expanded="true" />
@@ -137,6 +141,12 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>auge-maven-plugin</find>
+      <find>gauge-gradle-plugin</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -149,9 +159,9 @@
         <option value="$PROJECT_DIR$/src/test/java/base/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/StepImplementation.java" />
         <option value="$PROJECT_DIR$/specs/deneme.spec" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/specs/example.spec" />
         <option value="$PROJECT_DIR$/src/test/java/util/Browser.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -255,7 +265,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gauge Execution.Vowel counts in single word">
+  <component name="RunManager" selected="Gauge Execution.deneme">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -327,8 +337,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gauge Execution.Vowel counts in single word" />
         <item itemvalue="Gauge Execution.deneme" />
+        <item itemvalue="Gauge Execution.Vowel counts in single word" />
       </list>
     </recent_temporary>
   </component>
@@ -346,18 +356,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="deneme - 2018.11.08 at 14h 06m 13s.xml">
-      <configuration name="deneme" configurationId="executeSpecs" />
-    </history-entry>
-    <history-entry file="deneme - 2018.11.08 at 14h 07m 54s.xml">
-      <configuration name="deneme" configurationId="executeSpecs" />
-    </history-entry>
-    <history-entry file="deneme - 2018.11.08 at 14h 08m 42s.xml">
-      <configuration name="deneme" configurationId="executeSpecs" />
-    </history-entry>
-    <history-entry file="deneme - 2018.11.08 at 16h 19m 50s.xml">
-      <configuration name="deneme" configurationId="executeSpecs" />
-    </history-entry>
     <history-entry file="deneme - 2018.11.08 at 16h 22m 00s.xml">
       <configuration name="deneme" configurationId="executeSpecs" />
     </history-entry>
@@ -376,6 +374,18 @@
     <history-entry file="Vowel_counts_in_single_word - 2018.11.09 at 11h 16m 59s.xml">
       <configuration name="Vowel counts in single word" configurationId="executeSpecs" />
     </history-entry>
+    <history-entry file="deneme - 2018.11.09 at 13h 38m 02s.xml">
+      <configuration name="deneme" configurationId="executeSpecs" />
+    </history-entry>
+    <history-entry file="deneme - 2018.11.09 at 13h 38m 25s.xml">
+      <configuration name="deneme" configurationId="executeSpecs" />
+    </history-entry>
+    <history-entry file="deneme - 2018.11.09 at 13h 56m 00s.xml">
+      <configuration name="deneme" configurationId="executeSpecs" />
+    </history-entry>
+    <history-entry file="deneme - 2018.11.09 at 13h 56m 18s.xml">
+      <configuration name="deneme" configurationId="executeSpecs" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -390,11 +400,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32965517" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20436187" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20436187" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -558,7 +568,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/test/StepImplementation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#531#532#0" expanded="true" />
@@ -567,24 +577,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/specs/deneme.spec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/specs/example.spec">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -602,15 +598,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/specs/deneme.spec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/util/Browser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="57" column="75" selection-start-line="57" selection-start-column="75" selection-end-line="57" selection-end-column="75" />
+        <state relative-caret-position="-1105">
+          <caret line="44" column="79" selection-start-line="44" selection-start-column="79" selection-end-line="44" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#4998#4999#0" expanded="true" />
             <element signature="e#5041#5042#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
